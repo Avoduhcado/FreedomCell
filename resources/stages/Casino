@@ -1,0 +1,36 @@
+<BACKDROP>
+backdrop
+
+<WIN>
+Casino
+ ; 
+@Add Actor;greaser;-1200;0
+@Move Speed;greaser;1;800;25
+@Fade While;1
+@Move Speed;greaser;1;1300;25
+@Remove Actor;greaser
+@Fade While;-1
+@Add Actor;oldpro;1200;0
+@Move Speed;oldpro;2;800;25
+@Fade While;1
+@Move Speed;oldpro;2;1300;25
+@Remove Actor;oldpro
+@Fade While;-1
+@Add Actor;devilflesh;-1200;0
+@Move Speed;devilflesh;1;800;25
+@Fade While;1
+@Move Speed;devilflesh;1;1300;25
+@Remove Actor;devilflesh
+@Fade While;-1
+@Add Long Animation;megane_intro/megane_intro_0001;-1200;0;true;44
+@Move Speed;megane_intro/megane_intro_0001;1;1000;25
+@Move Speed;megane_intro/megane_intro_0001;1;300;20
+@Move Speed;megane_intro/megane_intro_0001;2;150;7
+@Move Speed;megane_intro/megane_intro_0001;1;50;3
+@Play Animation;megane_intro/megane_intro_0001;false;false
+@Fade Screen;3
+@Remove Animation;megane_intro/megane_intro_0001
+@Add Actor;logo;180;400
+@Fade Screen;-3
+@Hang
+<END>
